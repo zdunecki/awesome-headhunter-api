@@ -1,0 +1,20 @@
+{
+  "name": "headhunter",
+  "version": 2,
+  "routes": [
+    {
+      "src": "/api/facebook/crawler",
+      "dest": "/api/facebook/crawler.go",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
+      "src": "/api/server/crawling",
+      "dest": "/api/server/crawling/post.go",
+      "methods": [
+        "POST"
+      ]
+    }
+  ]
+}

@@ -1,7 +1,0 @@
-configparser==3.8.1
-selenium==3.141.0
-instapy==0.6.6
-langdetect==1.0.7
-numpy==1.17.4
-geotext==0.4.0
-spacy==2.2.3
