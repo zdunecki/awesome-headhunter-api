@@ -16,5 +16,10 @@
         "POST"
       ]
     }
-  ]
+  ],
+  "env": {
+    "CRAWLER_PROXIES": "@headhunter-crawler-proxies",
+    "REDIS_URL": "@headhunter-redis-url",
+    "HEADHUNTER_URL": "http://localhost:3000"
+  }
 }
